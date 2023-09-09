@@ -1,6 +1,5 @@
 # Варианты запуска
 
-Вопрос - почему не работает в докере
 
 ## Как есть
 
@@ -82,7 +81,7 @@ docker logs hwhttp
 ```bash
 curl localhost:8080
 
-   curl: (7) Failed to connect to localhost port 8080 after 0 ms: Couldn't connect to server
+   I receive teapot-status code!
 
 ```
 
@@ -112,6 +111,6 @@ docker logs hwhttp
 ```bash
 curl localhost:8080
    
-   curl: (56) Recv failure: Соединение разорвано другой стороной
+   I receive teapot-status code!
 
 ```
